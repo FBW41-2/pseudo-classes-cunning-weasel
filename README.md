@@ -10,3 +10,4 @@
 **Bonus Tasks**:
 3. Change the color of the first letter of each paragraph.
 4. Change the color of the first line of the paragraphs which immediately follow h2 elements. HINT: Use a combinator!
+

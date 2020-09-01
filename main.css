@@ -18,11 +18,33 @@ button {
   font-size: 16px;
 }
 
+/* Task 1 would beed to refactor coz this is super messy somehow :. */
+a {
+  text-decoration: none;
+}
 
-/* Task 1 */
+a:link,
+a:visited {
+  color: green;
+}
+
+* a:active {
+  color: orange;
+}
 
 /* Task 2 */
+button:hover {
+  background-color: black;
+  color: white;  
+}
 
 /* Task 3 */
+p::first-letter {
+  color: red;
+}
 
 /* Task 4 */
+h2 + p::first-line {
+  color: blue;
+}
+
