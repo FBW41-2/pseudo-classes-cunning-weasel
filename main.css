@@ -19,8 +19,14 @@ button {
 }
 
 /* Task 1 would beed to refactor coz this is super messy somehow :. */
-a {
+a,
+a:hover {
   text-decoration: none;
+}
+
+a:hover {
+  color: purple;
+  background-color: black;
 }
 
 a:link,
@@ -39,12 +45,12 @@ button:hover {
 }
 
 /* Task 3 */
-p::first-letter {
+p:first-letter {
   color: red;
 }
 
-/* Task 4 */
-h2 + p::first-line {
+/* Task 4 */ 
+h2 + p:first-line {
   color: blue;
 }
 
